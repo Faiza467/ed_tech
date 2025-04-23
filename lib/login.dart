@@ -53,12 +53,12 @@ class _LoginPageState extends State<login> {
         String role = userData['role'] ?? 'Student';
 
         if (role == 'Student') {
-          // Navigator.pushReplacement(
-          //   context,
-          //   // MaterialPageRoute(
-          //   //   builder: (context) => HomePage(user: userMap),
-          //   // ),
-          // );
+          Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(
+              builder: (context) => HomePage(user: userMap),
+            ),
+          );
         } else if (role == 'Tutor') {
           Navigator.pushReplacement(
             context,
