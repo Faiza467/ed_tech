@@ -32,23 +32,6 @@ class Dashboard extends StatelessWidget {
                   color: Color(0xFF0F2C3E),
                 ),
               ),
-              SizedBox(height: 20),
-              Text(
-                'Email: ${user['email']}',
-                style: TextStyle(fontSize: 18),
-              ),
-              SizedBox(height: 10),
-              Text(
-                'Phone: ${user['phone']}',
-                style: TextStyle(fontSize: 18),
-              ),
-              SizedBox(height: 30),
-              Center(
-                child: Text(
-                  'You are logged in as a Tutor.',
-                  style: TextStyle(fontSize: 20, color: Colors.green[700]),
-                ),
-              ),
               SizedBox(height: 40),
 
               Center(
